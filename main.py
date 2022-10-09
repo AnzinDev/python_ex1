@@ -12,7 +12,7 @@ def main():
         times[i] = time.time_ns() - start_time
     
     times.sort()
-    print(f"Gystogram time is: {round(times[49] / 1000000, 4)} ms.")
+    print(f"Histogram time is: {round(times[49] / 1000000, 4)} ms.")
 
 
 def get_random_nums():
